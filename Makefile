@@ -32,7 +32,3 @@ test_sort: test_sort.o sort.o partition.o
 clean:
 	rm -rf generate_inputs input_ints.txt selection test_sort *.o *.dSYM
 
-# Submit assignment 
-provide:
-	provide comp160 finalproj *
-
