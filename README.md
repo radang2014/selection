@@ -33,3 +33,7 @@ make selection
 5
 26
 
+
+Results of an experiment done where the selection algorithm is timed for various 
+input and subarray sizes can be found in selection_data.xlsx
+
