@@ -3,10 +3,10 @@ algorithm.
 
 To compile the code, type `make selection` on the command line (this will
 use the `Makefile` in this directory).
- • To run the code, type `./selection inputFile` on the command line,
+ * To run the code, type `./selection inputFile` on the command line,
    where `inputFile` is the name of a file containing the elements to select
    from.
-    – Each element in `inputFile` should be separated by some amount of
+    - Each element in `inputFile` should be separated by some amount of
       whitespace, and there should be at least two elements. Elements
       can be integers or decimal numbers.
     – The code will prompt for a subarray size. Select a subarray size
@@ -18,7 +18,7 @@ use the `Makefile` in this directory).
       divided by 2.
     – The code will output the selected element and the time it took to
       run selection.
- • To generate random integers between `0` and `100`, type `make generate_inputs` 
+ * To generate random integers between `0` and `100`, type `make generate_inputs` 
    followed by `./generate_inputs outputFile` where `outputFile` is the name 
    of the file to output random numbers to.
 
@@ -37,5 +37,5 @@ make selection
 
 
 Results of an experiment done where the selection algorithm is timed for various 
-input and subarray sizes can be found in selection_data.xlsx
+input and subarray sizes can be found in `selection_data.xlsx`
 
