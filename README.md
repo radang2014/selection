@@ -9,14 +9,14 @@ use the `Makefile` in this directory).
     - Each element in `inputFile` should be separated by some amount of
       whitespace, and there should be at least two elements. Elements
       can be integers or decimal numbers.
-    – The code will prompt for a subarray size. Select a subarray size
+    - The code will prompt for a subarray size. Select a subarray size
       between `2` and the number of elements in the input. `5` is a common
       choice.
-    – The code will prompt for the rank of the element to be selected.
+    - The code will prompt for the rank of the element to be selected.
       Input a rank between `1` and the number of elements. For example, 
       to find the median, input approximately number of elements
       divided by 2.
-    – The code will output the selected element and the time it took to
+    - The code will output the selected element and the time it took to
       run selection.
  * To generate random integers between `0` and `100`, type `make generate_inputs` 
    followed by `./generate_inputs outputFile` where `outputFile` is the name 
